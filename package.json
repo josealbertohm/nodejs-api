@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "NodeJS API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/josealbertohm/nodejs-api.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Alberto Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josealbertohm/nodejs-api/issues"
+  },
+  "homepage": "https://github.com/josealbertohm/nodejs-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "request": "^2.87.0"
+  }
+}
